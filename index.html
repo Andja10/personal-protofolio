@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/2af23db5d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="">
+            <ul id="sidemenu">
+                <li><i class="fa-solid fa-house"></i> <a href="#header">Home</a></li>
+                <li><i class="fa-solid fa-bars"></i> <a href="#about">About</a></li>
+                <li><i class="fa-solid fa-briefcase"></i> <a href="#services">Services</a></li>
+                <li><i class="fa-solid fa-folder"></i> <a href="#portofolio">Portfolio</a></li>
+                <li><i class="fa-solid fa-blog"></i> <a href="#blog">Blog</a></li>
+                <li><i class="fa-regular fa-message"></i> <a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><i class="fa-solid fa-user"></i></p>
+            <h1>Hi, I am Andja Cane</h1>
+        </div>
+    </div>
+</div>
+<!---about----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi there!  I'm Andja Cane, an aspiring frontend developer with a passion for creating visually appealing and interactive web experiences.
+                   I’m excited to work with HTML, CSS, and JavaScript to build responsive and user-friendly interfaces. While I'm in the early
+                   stages of my development journey, I’m eager to learn and improve, exploring modern frameworks like React and exploring the latest
+                   trends in frontend design. Every new project is an opportunity to grow, and I’m committed to honing my skills and expanding 
+                   my knowledge in frontend development.
+                   Check out some of the projects I've built, my resume, and explore my blog for insights into my learning process and thoughts on the tech world.
+                   </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                  
+                        <li><span>Web Design</span><br> I design intuitive, visually appealing websites.</li>
+                        <li><span>Mathematic</span><br> I solve complex mathematical problems.</li>
+                        <li><span>Art</span><br>I use creativity to bring unique visual concepts to life.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2023</span><br>Preca College</li>
+                        <li><span>2023-...</span><br>Computer Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services----------->
+<div id="services">
+    <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>With a passion for creativity and technology, I craft responsive and visually appealing websites that provide seamless user experiences while connecting brands with their audience.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-calculator"></i>
+            <h2>Mathematic Learning</h2>
+            <p>Empowering learners with engaging resources, tools, and methods to simplify complex mathematical concepts and inspire a love for problem-solving.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-palette"></i>
+            <h2>Art</h2>
+            <p>Transforming ideas into captivating visuals, exploring the limitless possibilities of colors, shapes, and creativity to inspire and evoke emotions.</p>
+            <a href="#">Learn more</a>
+        </div>
+        
+    </div>
+    </div>
+</div>
+<!---------portofolio----------->
+<div id="portofolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\project11.png">
+            <div class="layer">
+            <h3>Fitness center</h3>
+            <p>This Fitness Center Management System, developed with C#, provides a seamless experience for both fitness center management and members,
+                 helping to enhance operational efficiency while improving customer satisfaction.</p>
+            <a href="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\gym prensation.pptx"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+            <img src="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\project1.jpg" >
+            <div class="layer">
+            <h3>DDR4</h3>
+            <p>DDR4 RAM provides faster speeds, lower power consumption, and higher capacities than previous generations, 
+                making it the standard for most modern computing systems today.</p>
+            <a href="C:\Users\andja\OneDrive\Documents\Andja_Cane_Organizim kompjuterik.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+        <div class="work">
+            <img src="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\project22.png">
+            <div class="layer">
+            <h3>Cybercrime</h3>
+            <p>English Project:Cybercrime remains one of the most significant and evolving threats in the digital age, 
+                impacting individuals, businesses, and governments alike.</p>
+            <a href="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\english project - Copy.pptx"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+   </div>    
+</div>
+<!---------blog---------->
+<div id="blog">
+    <div class="container">
+        <h1 class="sub-title">My Blog</h1>
+
+            <div class="blog-card">
+                <h2>Exploring React: The Future of Frontend Development</h2>
+              <p>The world of front-end development is always evolving. From static HTML pages to dynamic, 
+                interactive web applications, front-end developers have witnessed dramatic changes over the 
+                past decade. But what does the future hold for front-end development, and how will these changes 
+                impact developers and businesses?</p>
+
+              <p>In this blog, we'll explore the trends shaping the future of front-end development and the 
+                skills developers will need to stay ahead of the curve. Whether you're a seasoned developer or 
+                someone new to the field, it's essential to understand the transformations happening in the
+                industry.</p>
+                <h3>1. Rise of WebAssembly (Wasm)</h3>
+            <p>WebAssembly, often referred to as Wasm, is a game-changing technology for front-end development. 
+                WebAssembly allows developers to run code written in languages like C, C++, and Rust directly in
+                 the browser, without relying on JavaScript.</p>
+            <p>While JavaScript remains the backbone of front-end development, WebAssembly is gaining traction as
+                 a way to improve performance, especially in resource-intensive applications like gaming, machine 
+                 learning, and image processing. As more tools and libraries become WebAssembly-friendly, 
+                 front-end developers will need to familiarize themselves with this emerging technology to build 
+                 faster and more efficient web applications.</p>
+                <a href="C:\Users\andja\OneDrive\Desktop\personal protofolio\blog.html" target=_"blank">Read More</a>
+            </div>
+        </div>
+</div>
+<!---------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> andjacane@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0683377987</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="C:\Users\andja\OneDrive\Desktop\personal protofolio\images\Document 3.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+             <input type="text" name="Name" placeholder="Your Name" required>
+             <input type="email" name="Email" placeholder="Your Email" required>
+             <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+             <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyJIXORymDvqlR9SRPwGX6Bp6UiGxyD9tUsQKD21uLugT8Gepn2wBhARqKehjO_zEZgrg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },10000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
